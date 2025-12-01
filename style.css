@@ -1494,7 +1494,7 @@ body {
 }
 
 .journey-image img {
-  width: 100%;
+  width: 80%;
   border-radius: 16px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
@@ -1582,3 +1582,4 @@ body {
 
 
 /*# sourceMappingURL=style.css.map */
+
