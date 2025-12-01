@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="main.js"></script>
+    <link rel="icon" href="assets/icons/flavicon.png" type="image/x-icon" />
+    <title>Lavanderia Med Clean - Contato</title>
+  </head>
+
+  <body>
+    <div class="header_top">
+      <a href="http://wa.me/556133011443" target="_blank">
+        <img
+          class="iconig"
+          src="assets/icons/icons8-call-64.png"
+          alt="telefone icon"
+        />
+        <p>(61)3301-1443</p>
+      </a>
+      <a href="https://www.instagram.com/lavanderiamedclean/" target="_blank">
+        <img
+          class="iconig"
+          src="assets/icons/Vetor.png"
+          alt="instagram logo icon"
+        />
+        <p>lavanderiamedclean</p>
+      </a>
+    </div>
+
+    <div class="container_page">
+      <header class="header_main">
+        <a href="index.html">
+          <img width="200px" src="assets/images/logo_branca.png" alt="logo" />
+        </a>
+        <nav class="navbar">
+          <a href="services.html">Serviços</a>
+          <a href="pricing.html">Preços</a>
+          <a href="contact.html">Contato</a>
+          <a href="about.html">Sobre Nós</a>
+        </nav>
+      </header>
+    </div>
+
+    <!-- Hero Section da Página de Contato -->
+    <section class="page-hero">
+      <div class="page-hero-content">
+        <h1>Entre em Contato</h1>
+        <p>Estamos aqui para ajudar! Fale conosco através de qualquer canal</p>
+      </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section class="contact-section">
+      <div class="contact-container">
+        <!-- Informações de Contato -->
+        <div class="contact-info">
+          <h2>Informações de Contato</h2>
+          
+          <div class="contact-item">
+            <div class="contact-icon">
+              <img src="assets/icons/icons8-call-64.png" alt="Telefone" />
+            </div>
+            <div class="contact-details">
+              <h4>Telefone</h4>
+              <p><a href="tel:+556133011443">(61) 3301-1443</a></p>
+              <p class="contact-note">Segunda a Sábado, 8h às 18h</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <img src="assets/icons/Vetor.png" alt="Instagram" />
+            </div>
+            <div class="contact-details">
+              <h4>Instagram</h4>
+              <p><a href="https://www.instagram.com/lavanderiamedclean/" target="_blank">@lavanderiamedclean</a></p>
+              <p class="contact-note">Siga-nos para dicas e promoções</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <img src="assets/icons/icons8-whatsapp-96.png" alt="WhatsApp" />
+            </div>
+            <div class="contact-details">
+              <h4>WhatsApp</h4>
+              <p><a href="http://wa.me/556133011443" target="_blank">(61) 3301-1443</a></p>
+              <p class="contact-note">Atendimento imediato e agendamento</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <img src="assets/icons/icons8-location-96.png" alt="Localização" />
+            </div>
+            <div class="contact-details">
+              <h4>Localização</h4>
+              <p>Brasília - DF</p>
+              <p class="contact-note">Atendemos toda a região administrativa</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <img src="assets/icons/icons8-clock-96.png" alt="Horário" />
+            </div>
+            <div class="contact-details">
+              <h4>Horário de Funcionamento</h4>
+              <p>Segunda a Sexta: 8h às 18h</p>
+              <p>Sábado: 8h às 13h</p>
+              <p>Domingo: Fechado</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Formulário de Contato -->
+        <div class="contact-form-container">
+          <h2>Envie uma Mensagem</h2>
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="name">Nome Completo *</label>
+              <input type="text" id="name" name="name" required placeholder="Seu nome">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" required placeholder="seu@email.com">
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Telefone *</label>
+              <input type="tel" id="phone" name="phone" required placeholder="(61) 9999-9999">
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Assunto *</label>
+              <select id="subject" name="subject" required>
+                <option value="">Selecione um assunto</option>
+                <option value="orcamento">Solicitar Orçamento</option>
+                <option value="duvida">Tirar Dúvida</option>
+                <option value="reclamacao">Reclamação</option>
+                <option value="sugestao">Sugestão</option>
+                <option value="outro">Outro</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Mensagem *</label>
+              <textarea id="message" name="message" required placeholder="Sua mensagem aqui..." rows="5"></textarea>
+            </div>
+
+            <div class="form-group checkbox">
+              <input type="checkbox" id="terms" name="terms" required>
+              <label for="terms">Concordo em receber comunicações da Med Clean</label>
+            </div>
+
+            <button type="submit" class="submit-button">
+              Enviar Mensagem
+              <img src="assets/icons/icons8-arrow-up-right-96.png" alt="seta" />
+            </button>
+          </form>
+          <p class="form-note">* Campos obrigatórios</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de Horários e Localização -->
+    <section class="contact-extra">
+      <h2>Informações Adicionais</h2>
+      <div class="extra-grid">
+        <div class="extra-item">
+          <h4>Coleta e Entrega</h4>
+          <p>Oferecemos serviço de coleta e entrega em toda Brasília. Agende pelo WhatsApp ou telefone.</p>
+        </div>
+
+        <div class="extra-item">
+          <h4>Atendimento Corporativo</h4>
+          <p>Possuímos pacotes especiais para empresas e condomínios. Entre em contato para informações.</p>
+        </div>
+
+        <div class="extra-item">
+          <h4>Parcerias</h4>
+          <p>Interessado em parceria? Envie uma proposta através do formulário de contato.</p>
+        </div>
+
+        <div class="extra-item">
+          <h4>Feedback</h4>
+          <p>Sua opinião é importante! Compartilhe sua experiência conosco.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <h2>Não encontrou o que procurava?</h2>
+      <p>Fale conosco via WhatsApp para um atendimento imediato</p>
+      <a href="http://wa.me/556133011443" target="_blank">
+        <button class="cta-button">
+          Abrir WhatsApp
+          <img src="assets/icons/icons8-arrow-up-right-96.png" alt="seta" />
+        </button>
+      </a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2025 Lavanderia Med Clean. Todos os direitos reservados.</p>
+      <p>Desenvolvido por Bruno Vieira, Lucas Souza e Gustavo Silva - Universidade Católica de Brasília - UCB.</p>
+    </footer>
+
+    <script>
+      // Script simples para lidar com o envio do formulário
+      document.getElementById('contactForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const phone = document.getElementById('phone').value;
+        const subject = document.getElementById('subject').value;
+        const message = document.getElementById('message').value;
+        
+        // Montar mensagem para WhatsApp
+        const whatsappMessage = `Olá! Meu nome é ${name}. Email: ${email}. Telefone: ${phone}. Assunto: ${subject}. Mensagem: ${message}`;
+        const whatsappUrl = `https://wa.me/556133011443?text=${encodeURIComponent(whatsappMessage)}`;
+        
+        // Abrir WhatsApp
+        window.open(whatsappUrl, '_blank');
+        
+        // Limpar formulário
+        this.reset();
+      });
+    </script>
+
+  </body>
+</html>
